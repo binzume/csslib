@@ -4,14 +4,30 @@
 	<link rel=stylesheet type="text/css" href="form.css" />
 	<link rel=stylesheet type="text/css" href="list.css" />
 	<link rel=stylesheet type="text/css" href="header.css" />
-	<link rel=stylesheet type="text/css" href="layout_simple.css" />
+	<link rel=stylesheet type="text/css" href="layout_sidemenu.css" />
 	<title>css-lib sample</title>
 </head>
 <body>
 
 <div id="content">
 
-スタイル確認用．
+<div class="header">
+スタイル確認用．600px以下でスマホ用に．
+</div>
+
+<div class="menu">
+Main menu.
+
+<ul class="simple">
+ <li>aaa</li>
+ <li>bbb</li>
+ <li>ddd</li>
+ <li>eee</li>
+ <li>fff</li>
+</ul>
+</div>
+
+<div class="main">
 
 <h2>form.css</h2>
 
@@ -50,10 +66,11 @@ attach buttons:
 
 </fieldset>
 
-<h2>list.css</h2>
+</div>
 
-simple:
-<ul class="simple">
+<div class="menu">
+Sub items.
+<ul>
  <li>aaa</li>
  <li>bbb</li>
  <li>ddd</li>
@@ -61,24 +78,13 @@ simple:
  <li>fff</li>
 </ul>
 
-tabs:
-<ul class="tab">
- <li class="sel">aaa</li>
- <li>bbb</li>
- <li>ddd</li>
-</ul>
+</div>
 
-menubar:
-<ul class="menubar">
- <li>aaa</li>
- <li>bbb</li>
- <li>ddd</li>
-</ul>
 
-<h2>header.css</h2>
-<header>
-<span>test</span> <a href="http://www.binzume.net/">link</a> <a href="http://www.binzume.net/" class="selected">link2</a>
-</header>
+<div class="footer">
+footer
+</div>
+
 
 </div>
 
