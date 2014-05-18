@@ -3,3 +3,5 @@
 
 License: NYSLもしくはパブリックドメイン扱いで．
 
+Sample: <http://binzume.github.io/csslib/sample.html>
+
