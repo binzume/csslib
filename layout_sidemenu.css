@@ -38,11 +38,8 @@ body {
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 600px) { /* and (orientation: portrait) */
+@media screen and (max-width: 600px), screen and (max-device-width: 400px) { /* and (orientation: portrait) */
     #content .menu {
-        width: 100%;
-    }
-    #content .menu_sub {
         width: 100%;
     }
 	#content .main {
@@ -53,5 +50,3 @@ body {
 		margin-right:0px;
 	}
 }
-
-
