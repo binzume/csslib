@@ -5,11 +5,21 @@ input[type="text"] {
 	border-radius: 3px;
 	height: 1.8em;
 }
+
+select {
+	margin: 2pt;
+	padding: 0px 2pt;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	height: 1.8em;
+}
+
 label {
 	user-select: none;
 	-webkit-user-select: none;
 }
 textarea {
+	width: 400pt;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	min-height: 5em;
